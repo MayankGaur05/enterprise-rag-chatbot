@@ -1,0 +1,13 @@
+.venv
+pycache
+*.pyc
+.git
+.gitignore
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.vscode
+data/raw
+data/processed
+data/vectorstore
+*.log
