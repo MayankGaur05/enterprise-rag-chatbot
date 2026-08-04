@@ -20,6 +20,8 @@ class Settings(BaseSettings):
 
     openai_api_key: str | None = Field(default=None, env="OPENAI_API_KEY")
 
+    supported_file_extensions: set[str] = Field(default_factory=lambda: {".pdf", ".docx", ".txt"}, env="SUPPORTED_FILE_EXTENSIONS")
+
     model_config = SettingsConfigDict(
         env_file=".env",
         env_file_encoding="utf-8",

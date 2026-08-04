@@ -6,3 +6,9 @@ python-dotenv
 loguru
 httpx
 pytest
+langchain
+langchain-community 
+pypdf
+docx2txt
+python-multipart
+tiktoken
