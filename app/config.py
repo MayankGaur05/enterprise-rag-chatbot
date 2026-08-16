@@ -1,7 +1,9 @@
 from functools import lru_cache
 from pathlib import Path
-from pydantic import  Field
+
+from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
+
 
 class Settings(BaseSettings):
     app_name: str = Field("Enterprise RAG Chatbot", env="APP_NAME")
@@ -29,7 +31,7 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-@lru_cache()
+@lru_cache
 def get_settings() -> Settings:
     return Settings()
 

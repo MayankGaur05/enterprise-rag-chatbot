@@ -1,8 +1,9 @@
 import os
+
+import httpx
 import streamlit as st
-import httpx 
-from loguru import logger
 from dotenv import load_dotenv
+from loguru import logger
 
 load_dotenv()  # Load environment variables from .env file
 
@@ -53,9 +54,9 @@ def check_api_health(backend_url):
     except httpx.RequestError:
         logger.error(f"Failed to connect to the API. backend_url={backend_url}")
         st.error("Failed to connect to the API")
-    except Exception as e:
-        logger.error(f"An unexpected error occurred: {str(e)}. backend_url={backend_url}")
-        st.error(f"An unexpected error occurred: {str(e)}")
+    # except Exception as e:
+    #     logger.error(f"An unexpected error occurred: {e!s}. backend_url={backend_url}")
+    #     st.error(f"An unexpected error occurred: {e!s}")
 
 if st.button("Check API Health"):
     if not backend_url.strip():

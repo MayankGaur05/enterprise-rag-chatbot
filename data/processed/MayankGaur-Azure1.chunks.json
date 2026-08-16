@@ -1,0 +1,137 @@
+[
+  {
+    "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+    "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00001",
+    "content": "Mayank Gaur \n    Noida, India |         mayankgaur.1511@gmail.com |        +91-8880470214 |    LinkedIn: \nhttps://www.linkedin.com/in/mayank-gaur-985aa316/ |            Microsoft Certified: Azure \nSolutions Architect Expert (AZ-305) | Azure Administrator Associate (AZ -104) | Azure AI \nFundamental (AI-900) \n \nPROFESSIONAL SUMMARY \nAzure Cloud Architect | Lead DevOps Engineer | Microsoft Certified \nResults-driven Azure Cloud Architect and Lead DevOps Engineer with 16+ years of IT \nexperience and 8+ years in Azure cloud architecture and DevOps. Specialized in designing \nscalable, secure, and cost-optimized enterprise architectures across multi-region \ndeployments. Proven track record in CI/CD automation, cloud migrations, and cost",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\MayankGaur-Azure1.pdf",
+      "filename": "MayankGaur-Azure1.pdf",
+      "file_type": ".pdf",
+      "file_size": 3976256,
+      "page_number": 1,
+      "created_at": "2026-08-11T10:52:46.103694+00:00",
+      "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+      "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00001"
+    }
+  },
+  {
+    "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+    "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00002",
+    "content": "deployments. Proven track record in CI/CD automation, cloud migrations, and cost \noptimization, achieving 38% reduction in Azure spend through workload modernization and \nresource right-sizing.\n \nCORE SKILLS \nAzure Services: App Services, Functions App, AKS, Azure SQL, Blob Storage, VNets, \nExpressRoute, NSG, Application Gateway, Front Door, WAF, Key Vault, Azure AD, Azure \nMonitor, Azure Policy, Defender for Cloud, Redis Cache, SignalR, API Management \nIaC & Automation: Terraform, ARM Templates, Bicep, Ansible, Azure CLI, PowerShell \nDevOps & CI/CD: Azure DevOps Pipelines, GitHub Actions, Jenkins, SonarCloud, MendBolt \nContainers: Docker, Kubernetes (AKS) \nArchitecture Patterns: Microservices, Event-Driven, API Management, Serverless,  Service \nBus, Event Grid",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\MayankGaur-Azure1.pdf",
+      "filename": "MayankGaur-Azure1.pdf",
+      "file_type": ".pdf",
+      "file_size": 3976256,
+      "page_number": 1,
+      "created_at": "2026-08-11T10:52:46.103694+00:00",
+      "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+      "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00002"
+    }
+  },
+  {
+    "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+    "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00003",
+    "content": "Bus, Event Grid \nMonitoring & Optimization: Azure Monitor, Prometheus, Grafana, IBM Apptio, Cost \nManagement + Reservations\n \nPROFESSIONAL EXPERIENCE \nTechnical Architect – Azure Cloud Solutions \nPinkerton | Sep 2020 – Present | Noida, India \nCloud Cost Optimization & Architecture Design: Designed secure, scalable, and cost-\noptimized Azure architectures. Reduced monthly cloud spend from $26K to $16K (38% \nsavings) by migrating workloads from Function Apps to AKS microservices, consolidating App \nService Plans, deleting obsolete resources, and purchasing Azure Reservations for predictable \nworkloads. \n Multi-Stage CI/CD Pipelines: Built and managed end-to-end Azure DevOps pipelines \nacross Dev, UAT, and Prod with gated approvals. Automated builds, containerization,",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\MayankGaur-Azure1.pdf",
+      "filename": "MayankGaur-Azure1.pdf",
+      "file_type": ".pdf",
+      "file_size": 3976256,
+      "page_number": 1,
+      "created_at": "2026-08-11T10:52:46.103694+00:00",
+      "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+      "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00003"
+    }
+  },
+  {
+    "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+    "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00004",
+    "content": "across Dev, UAT, and Prod with gated approvals. Automated builds, containerization, \nvulnerability scans, and deployments to AKS clusters using Helm and Kubernetes manifests.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\MayankGaur-Azure1.pdf",
+      "filename": "MayankGaur-Azure1.pdf",
+      "file_type": ".pdf",
+      "file_size": 3976256,
+      "page_number": 1,
+      "created_at": "2026-08-11T10:52:46.103694+00:00",
+      "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+      "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00004"
+    }
+  },
+  {
+    "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+    "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00005",
+    "content": "Infrastructure as Code & Environment Provisioning: Provisioned Dev/UAT/Prod \nenvironments with Terraform and Bicep, enabling consistency, governance, and automation of \ninfrastructure deployment. Integrated Key Vault, ConfigMaps, and Secret Provider for secure \nconfiguration management. \nSecurity & Compliance (VAPT & Governance): Worked with external vendors to address \nVAPT findings across Web APIs, Angular apps, and Azure resources. Implemented \nremediations including NSG hardening, library upgrades, and patch management. Enforced \nAzure Policy, RBAC, Defender for Cloud, and identity governance to meet enterprise \ncompliance requirements. \nMonitoring & Observability: Implemented observability stack with Prometheus, Grafana,",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\MayankGaur-Azure1.pdf",
+      "filename": "MayankGaur-Azure1.pdf",
+      "file_type": ".pdf",
+      "file_size": 3976256,
+      "page_number": 2,
+      "created_at": "2026-08-11T10:52:46.103694+00:00",
+      "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+      "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00005"
+    }
+  },
+  {
+    "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+    "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00006",
+    "content": "Monitoring & Observability: Implemented observability stack with Prometheus, Grafana, \nand Azure Monitor for proactive monitoring of cluster health, application latency, and \ndeployment KPIs. \nLegacy App Migration: Led migration of ATS and OsPrey apps from VMware to Azure VMs \n(IIS, SQL Server, Reporting Services), ensuring secure VNet/subnet/NSG design and zero \ndowntime. \nMentorship & Collaboration: Served as DevOps SME, mentoring developers, QA, and infra \nengineers in cloud-native architecture, Kubernetes deployment, and cost optimization \npractices. \n \nSoftware Development Lead \nNTT Cloud Communications | Dec 2017 – Aug 2020 | Noida, India \n• Implemented Azure App Services and Azure SQL for enterprise communication \nplatforms.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\MayankGaur-Azure1.pdf",
+      "filename": "MayankGaur-Azure1.pdf",
+      "file_type": ".pdf",
+      "file_size": 3976256,
+      "page_number": 2,
+      "created_at": "2026-08-11T10:52:46.103694+00:00",
+      "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+      "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00006"
+    }
+  },
+  {
+    "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+    "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00007",
+    "content": "• Implemented Azure App Services and Azure SQL for enterprise communication \nplatforms. \n• Automated deployments with Azure DevOps CI/CD and Jenkins. \n• Containerized workloads with Docker and deployed to AKS for scalability. \n• Created ARM template for provision of resources on Azure.  \n \nApplication Development Team Lead \nAccenture Solution Private Limited | Nov 2014 – Dec 2017 | Noida, India \n• Developed .NET windows applications using Xamarin, WPF, Prism and MVVM.    \n• Developed and maintained database using SQL server. \n \nSenior Software Engineer \nChetu India Private Limited | Dec 2011 – Oct 2014 | Noida, India \n• Developed .NET web applications and APIs for global clients using ASP.Net MVC, C#,  \nHTML and JQuery.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\MayankGaur-Azure1.pdf",
+      "filename": "MayankGaur-Azure1.pdf",
+      "file_type": ".pdf",
+      "file_size": 3976256,
+      "page_number": 2,
+      "created_at": "2026-08-11T10:52:46.103694+00:00",
+      "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+      "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00007"
+    }
+  },
+  {
+    "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+    "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00008",
+    "content": "• Create database structure (Tables, Views, Stored Procedures, Triggers, Queries) using \nSQL Server. \n \nSoftware Developer \nBrandshow Digital Solutions | Jan 2010 –  Dec 2011 \n• Built enterprise web applications using ASP.NET, MVC, WCF, and SQL Server. \n \nCERTIFICATIONS \n• Microsoft Certified: Azure Solutions Architect Expert (AZ 305) \n• Microsoft Certified: Azure Administrator Associate (AZ 104) \n \nEDUCATION \nBachelor of Technology – Information Technology | Uttar Pradesh Technical University, 2008 \n \nPROJECT HIGHLIGHTS \n1. Multi-Region Enterprise Architecture – DR & BCP \n• Two-region deployment with automated failover via Azure Front Door + WAF, SQL \nFailover Groups, and GRS Storage. Achieved 99.99% availability and RTO <10 mins. \n2. VMware to Azure Migration – OsPrey & ATS",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\MayankGaur-Azure1.pdf",
+      "filename": "MayankGaur-Azure1.pdf",
+      "file_type": ".pdf",
+      "file_size": 3976256,
+      "page_number": 3,
+      "created_at": "2026-08-11T10:52:46.103694+00:00",
+      "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+      "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00008"
+    }
+  },
+  {
+    "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+    "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00009",
+    "content": "2. VMware to Azure Migration – OsPrey & ATS \n• Migrated legacy workloads from VMware to Azure using Azure Migrate, right-sized \nVMs, and secured networking. Zero downtime and improved performance. \n3. Function Apps to AKS Optimization \n• Architected AKS microservices, reduced cloud costs by $10K/month, improved \ndeployment speed by 70%. \n4. Global Active Directory Sync \n• Architected the .Net Web API, Architect the Azure Infra (Logic APPS, VNet, Subnet, \nAzure VM)",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\MayankGaur-Azure1.pdf",
+      "filename": "MayankGaur-Azure1.pdf",
+      "file_type": ".pdf",
+      "file_size": 3976256,
+      "page_number": 3,
+      "created_at": "2026-08-11T10:52:46.103694+00:00",
+      "document_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326",
+      "chunk_id": "dba34770-12e4-4a16-b1e2-f1bb3f8c4326_chunk_00009"
+    }
+  }
+]

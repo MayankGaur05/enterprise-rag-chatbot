@@ -1,9 +1,9 @@
+
 from fastapi import APIRouter, HTTPException, status
 from pydantic import BaseModel
-from typing import List, Optional
+
 from app.config import get_settings
 from app.core.logging_config import setup_logging
-
 
 router = APIRouter()
 
@@ -15,19 +15,19 @@ class ItemCreate(BaseModel):
     Schema for creating a new item.
     """
     name: str
-    description: Optional[str] = None
+    description: str | None = None
     price: float
-    tax: Optional[float] = None
+    tax: float | None = None
 
 class ItemUpdate(BaseModel):
     """
     Schema for updating an existing item.
     All fields are optional to allow partial updates.
     """
-    name: Optional[str] = None
-    description: Optional[str] = None
-    price: Optional[float] = None
-    tax: Optional[float] = None
+    name: str | None = None
+    description: str | None = None
+    price: float | None = None
+    tax: float | None = None
 
 class ItemResponse(BaseModel):
     """
@@ -35,9 +35,9 @@ class ItemResponse(BaseModel):
     """
     id: int
     name: str
-    description: Optional[str] = None
+    description: str | None = None
     price: float
-    tax: Optional[float] = None
+    tax: float | None = None
 
 
 class ItemsListResponse(BaseModel):
@@ -45,7 +45,7 @@ class ItemsListResponse(BaseModel):
     Schema for the response containing a list of items.
     """
     message: str
-    items: List[ItemResponse]
+    items: list[ItemResponse]
 
 items = []
 next_id = 0

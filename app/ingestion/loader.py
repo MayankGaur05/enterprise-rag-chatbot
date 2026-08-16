@@ -1,16 +1,15 @@
-from pathlib import Path
+from collections.abc import Callable
 from datetime import datetime, timezone
-from typing import Callable
+from pathlib import Path
 
 from langchain_core.documents import Document
 
 from app.config import get_settings
 from app.core.logging_config import setup_logging
-
 from app.ingestion.exceptions import (
-    UnsupportedFileTypeError,       
     DocumentLoadError,
-    EmptyDocumentError
+    EmptyDocumentError,
+    UnsupportedFileTypeError,
 )
 
 
@@ -144,35 +143,35 @@ class DocumentLoader:
 
         return [doc]
 
-def load_documents_from_directory(self, file_path: str | Path) -> list[Document]:
-    """
-    Load all supported documents from a specified directory.
+    def load_documents_from_directory(self, file_path: str | Path) -> list[Document]:
+        """
+        Load all supported documents from a specified directory.
 
-    Args:
-        file_path (Path): The path of the file.
-    """
+        Args:
+            file_path (Path): The path of the file.
+        """
 
-    path = Path(file_path)
-    if not path.exists():
-        self.logger.warning(f"File not found: {file_path}")
-        raise DocumentLoadError(f"File not found: {file_path}")
-    if not path.is_file():
-        self.logger.warning(f"Path is not a file: {file_path}")
-        raise DocumentLoadError(f"Path is not a file: {file_path}")
+        path = Path(file_path)
+        if not path.exists():
+            self.logger.warning(f"File not found: {file_path}")
+            raise DocumentLoadError(f"File not found: {file_path}")
+        if not path.is_file():
+            self.logger.warning(f"Path is not a file: {file_path}")
+            raise DocumentLoadError(f"Path is not a file: {file_path}")
 
-    ext = self._detect_extension(path)
-    self.logger.info(f"Using loader for extension: {ext}")
-    loader_fn = self._loaders.get(ext)
-    if not loader_fn:
-        self.logger.warning(f"No loader found for extension: {ext}")
-        raise UnsupportedFileTypeError(f"No loader found for extension: {ext}")
+        ext = self._detect_extension(path)
+        self.logger.info(f"Using loader for extension: {ext}")
+        loader_fn = self._loaders.get(ext)
+        if not loader_fn:
+            self.logger.warning(f"No loader found for extension: {ext}")
+            raise UnsupportedFileTypeError(f"No loader found for extension: {ext}")
 
-    documents = loader_fn(path)
-    if not documents:
-            self.logger.warning(f"No document content extracted: {path.name}")
-            raise EmptyDocumentError(f"No readable content extracted from: {path.name}")
+        documents = loader_fn(path)
+        if not documents:
+                self.logger.warning(f"No document content extracted: {path.name}")
+                raise EmptyDocumentError(f"No readable content extracted from: {path.name}")
 
-    self.logger.info(
-            f"Loaded document successfully: {path.name} | type={ext} | chunks={len(documents)}"
-        )
-    return documents
+        self.logger.info(
+                f"Loaded document successfully: {path.name} | type={ext} | chunks={len(documents)}"
+            )
+        return documents

@@ -1,8 +1,9 @@
 from datetime import datetime, timezone
+
 from fastapi import APIRouter
 
-from app.core.logging_config import setup_logging
 from app.config import get_settings
+from app.core.logging_config import setup_logging
 
 router = APIRouter()
 logger = setup_logging(get_settings().log_level)

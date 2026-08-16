@@ -1,0 +1,2192 @@
+[
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00001",
+    "content": "Agent Communication \nProtocols: MCP , A2A, and Google \nADK\nBuilding Multi-Agent Systems with MCP & Google ADK\nFrom naive chatbots to production-ready negotiation agents",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 1,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00001"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00002",
+    "content": "Introduction - Jeevendra Singh\n● I have been working as a Software Engineer since 2015\n● I've worked for companies like Ericsson, SAP, Q2, and now Microsoft\n● I have been working at Microsoft for 4+ years \n● In my career, I've worked as a full-stack developer, integration architect, and now focusing on \nAgentic AI development\n● Built intelligent API platforms and copilots using Generative AI, RAG, and Agent Orchestration",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 2,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00002"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00003",
+    "content": "● Built intelligent API platforms and copilots using Generative AI, RAG, and Agent Orchestration\n● Trained over 2000+ learners on Agentic AI, Full-stack, DSA and System Design",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 2,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00003"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00004",
+    "content": "3\nHannah \nChen\n💬\n 👷\n🏠\n 🏢\n??\nData \nScientist\nBay Area Grammarly, \nex-Uber\nWelcome to today’s class, before we begin, \npop into the chat:",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 3,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00004"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00005",
+    "content": "Structure \nof Class\n1. Sunday Class - 4 hr (Sunday)\n2. Assignments - MCQ & Coding Assignment",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 4,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00005"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00006",
+    "content": "✅\n Interact with your instructors via Sunday live class.\n✅\n Don’t be shy to speak up and get clariﬁcations !\n✅\n Solve your assignments, MCQs and other assessments and \nget   feedback (Thursday review session)\n✅\n Use your resources! It’s your experience – what you put in is \nwhat you’ll get out.\nOptimize Your Experience",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 5,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00006"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00007",
+    "content": "Don’t worry! \nWe are here to help at your every step !\nBut, how???",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 6,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00007"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00008",
+    "content": "Are you \nusing all \nthese IK \nsupport \nfeatures?\n● Uplevel - contains all the learning resources - videos, MCQs, \nassignments\n● Optional Post class videos for additional reference\n● Technical coaching sessions on Wednesday to clarify all your queries\n● Discord community for peer learning\n● TAs to help answer the queries in the live class\n● Support tickets - Raise them any time you want any clariﬁcations/ \ntech concerns , etc on UpLevel",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 7,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00008"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00009",
+    "content": "Success \nHacks\n● Be prepared for the class by watching the pre class videos\n● Attend every class\n● Participate in class\n● Attempt all the assignments,\n● Actively advocate for yourself\n● Keep your goal in mind\n● Consistency is the key\nBe patient with yourself !",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 8,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00009"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00010",
+    "content": "Check Your Email for API Key\nYou should have received an email like the one shown below containing your OpenAI API key.\nIf you do not see this email:\n● Please check your inbox\n● Also check your spam or junk folder\nIf you still cannot ﬁnd it, please reach out to the Operations Team operations@interviewkickstart.com",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 9,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00010"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00011",
+    "content": "What's Included:\n2 Complete Modules\nNaive Baseline, MCP Servers, A2A & Google ADK\nWorking Code Examples\nReady-to-run demos, practice exercises, and \nsolutions for each module\nGetting Started\ngit clone \nhttps://github.com/jeev1992/real-estate-negotiation-\nsimulator/\n1. Install dependencies:  pip install -r \nrequirements.txt\n2. Configure OpenAI API key and GitHub PAT\n3. Run demos from each module directory\nClone & Practice: Your Learning Repository\nreal-estate-negotiation-simulator",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 10,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00011"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00012",
+    "content": "Clone & Practice: Your Learning Repository\nreal-estate-negotiation-simulator\nhttps://github.com/jeev1992/real-estate-negotiation-simulator/",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 10,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00012"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00013",
+    "content": "How to Follow Along\n# Clone and set up\ngit clone <repo> && cd real-estate-negotiation-simulator\npython -m venv .venv && .venv\\Scripts\\activate    # Windows\npip install -r requirements.txt\ncp .env.example .env   # add your OPENAI_API_KEY\n# Module 1 -- MCP demos\npython m1_mcp/demos/01_initialize_handshake.py\npython m1_mcp/demos/02_tool_loop_trace.py\npython m1_mcp/demos/03_list_all_primitives.py\npython m1_mcp/pricing_server.py                    # start custom MCP server",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 11,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00013"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00014",
+    "content": "python m1_mcp/pricing_server.py                    # start custom MCP server\npython m1_mcp/github_agent_client.py \"Find MCP servers\"\npython m1_mcp/sse_agent_client.py                  # agent over HTTP/SSE\n# Module 2 -- ADK + A2A interactive\nadk web m2_adk_multiagents/adk_demos/d01_basic_agent/\nadk web m2_adk_multiagents/negotiation_agents/\nadk web --a2a m2_adk_multiagents/negotiation_agents/\npython m2_adk_multiagents/a2a_13_orchestrated_negotiation.py",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 11,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00014"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00015",
+    "content": "python m2_adk_multiagents/a2a_13_orchestrated_negotiation.py\nPrerequisites: Python 3.11+, OPENAI_API_KEY, Node.js (for GitHub MCP server only)\nEach module has a README.md with per-demo instructions.\nSetup & Running the Demos",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 11,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00015"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00016",
+    "content": "What exactly are we building?",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 12,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00016"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00017",
+    "content": "In Week 6, We are building a real estate negotiation simulator where two AI agents - a Buyer and a Seller - autonomously \nnegotiate the purchase of 742 Evergreen Terrace, Austin TX 78701 (4 BR / 3 BA / 2,400 sqft / Listed at $485,000). The negotiation \nruns for a maximum of 5 rounds and must produce either a deal or a clean deadlock.\nThe Agents and Their Constraints : \nThe problem we’re solving (in the real world)\nReal estate negotiations happen every day, and they are complex because:",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 13,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00017"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00018",
+    "content": "Real estate negotiations happen every day, and they are complex because:\n● A buyer at 742 Evergreen Terrace, Austin TX wants to pay as little as possible (budget: $460K)\n● The seller won't go below their mortgage ﬂoor ($445K) but listed at $485K\n● Both sides need live market data to justify every move\n● The negotiation must terminate fairly within 5 rounds with either a deal or a clear deadlock\nProblem statement\nParty Goal Starting Position Walk-Away",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 13,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00018"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00019",
+    "content": "Problem statement\nParty Goal Starting Position Walk-Away\nBuyer Agent (GPT-4o) Buy at lowest price Offer ~$425,000 Over $460,000\nSeller Agent (GPT-4o) Sell at highest price Counter $477,000 Below $445,000",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 13,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00019"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00020",
+    "content": "Today’s Agenda\nGoogle ADK + A2A \nProtocol\n2\n⭐\nMCP - External \nData for Agents\n1",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 14,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00020"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00021",
+    "content": "MCP: External Data for Agents\nMCP Model Context Protocol is a standard that lets agents call external tools without knowing where the data \ncomes from.\nAgent: \"What tools do you have?\"               → list_tools\nServer: \"get_market_price, ...\"                     → tool schemas (JSON Schema)\nAgent: \"Call get_market_price(...)\"              → call_tool\nServer: {estimated_value: 462000}             → structured result\nBy the end of this module:",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 15,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00021"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00022",
+    "content": "Server: {estimated_value: 462000}             → structured result\nBy the end of this module:\n● You'll understand the MCP protocol (handshake, tools, resources, prompts)\n● You'll have seen a live agent use GitHub MCP tools\n● You'll have built and inspected custom MCP servers\n● You'll understand stdio vs SSE vs Streamable HTTP transports",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 15,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00022"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00023",
+    "content": "API vs CLI vs MCP: Three Paths to External Systems\n\"Agents are only as useful as the systems they can reach.\" - Anthropic\nPath How it works Limitation\nDirect API Agent calls HTTP endpoints directly M×N integration problem - each pair is bespoke\nCLI Agent runs shell commands No reach to web/mobile/cloud - needs ﬁlesystem\nMCP Standard protocol - discovery + invocation + auth Upfront investment, but portable across all clients\nWHY MCP WINS FOR PRODUCTION",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 16,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00023"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00024",
+    "content": "WHY MCP WINS FOR PRODUCTION\n● One remote server reaches any compatible client (Claude, ChatGPT, Cursor, VS Code, ADK)\n● Auth, discovery, and rich semantics are standardized\n● 300M+ SDK downloads/month\n● Build once, use everywhere",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 16,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00024"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00025",
+    "content": "What is the Model Context Protocol (MCP) ?\n● MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems.\n● Using MCP, AI applications like Claude or ChatGPT can connect to data sources (e.g. local ﬁles, databases), tools (e.g. search \nengines, calculators) and workﬂows (e.g. specialized prompts) - enabling them to access key information and perform tasks.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 17,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00025"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00026",
+    "content": "● Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect electronic devices, MCP \nprovides a standardized way to connect AI applications to external systems.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 17,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00026"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00027",
+    "content": "MCP: Core Operations and Beneﬁts\nMCP (Model Context Protocol) is a thin RPC layer over JSON-RPC 2.0 \nthat standardizes three operations between an agent host and an \nexternal tool server.\n1 initialize\nHandshake, version and capability negotiation\n2 tools/list\nThe server advertises typed tool schemas\n3 tools/call\nThe host invokes a tool by name with validated arguments\nEverything else - resources, prompts, streaming - is layered on this base.\nWhy it matters\nN + M not N × M",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 18,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00027"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00028",
+    "content": "Why it matters\nN + M not N × M\nOne pricing server wired once, used by every \nagent in your stack regardless of language.\nOut-of-process tools\nA tool crash does not crash the agent. The \nserver is isolated compute.\nSame shape you know\nIf you know OpenAI function calling or \nAnthropic tool use, MCP is the same shape - \nbut the registry is reusable and lives out of \nprocess.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 18,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00028"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00029",
+    "content": "Participants\nThe key participants in the MCP architecture are:\n● MCP Host: The AI application that coordinates and manages one or multiple MCP clients\n● MCP Client: A component that maintains a connection to an MCP server and obtains context from an MCP server for the MCP host to use\n● MCP Server: A program that provides context to MCP clients\nFor example: Visual Studio Code acts as an MCP host. When Visual Studio Code establishes a connection to an MCP server, such as the",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 19,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00029"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00030",
+    "content": "Sentry MCP server, the Visual Studio Code runtime instantiates an MCP client object that maintains the connection to the Sentry MCP \nserver. When Visual Studio Code subsequently connects to another MCP server, such as the local ﬁlesystem server, the Visual Studio Code \nruntime instantiates an additional MCP client object to maintain this connection.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 19,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00030"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00031",
+    "content": "MCP: Agent ↔ Server Sequence",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 20,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00031"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00032",
+    "content": "MCP Primitives & Content Types: Four Primitives, Three Content Types\nPrimitive Direction Decorator When to pick it\nTool Model invokes with \narguments @mcp.tool() Side-effecting action that needs \nparameters\nResource Host fetches by URI @mcp.resource(\"scheme://path\") Read-only document, static or \ncomputed\nPrompt Host selects template @mcp.prompt(\"name\") Parameterized reusable instructions\nSampling Server asks host to call LLM (host-side capability) Server needs LLM reasoning without",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 21,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00032"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00033",
+    "content": "Sampling Server asks host to call LLM (host-side capability) Server needs LLM reasoning without \nholding API keys\nTools are 90% of MCP usage. Resources and prompts are bonus capabilities.\nCONTENT TYPES - WHAT A TOOL CAN RETURN\nType JSON shape When to use\nTextContent {\"type\": \"text\", \"text\": \"...\"} Most common - tool results\nImageContent {\"type\": \"image\", \"data\": \"base64...\"} Charts, screenshots\nEmbeddedResource {\"type\": \"resource\", \"resource\": {...}} References to stored data",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 21,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00033"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00034",
+    "content": "Three Transports: stdio, SSE, Streamable HTTP\nSame protocol, different carrier. Switch with a runtime ﬂag - tool functions change nothing.\nTransport Shape When to use\nstdio Subprocess pipes - lowest latency Local dev, integration tests, single-tenant desktop apps. Spawn the server, \npipe stdin/stdout, kill on exit.\nSSE Server-sent events over HTTP Legacy remote deployments. Two endpoints (/sse + /messages). Use only if \nyou inherited it.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 22,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00034"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00035",
+    "content": "you inherited it.\nStreamable HTTP HTTP with chunked SSE response body Current spec preferred option for remote/multi-tenant. Single endpoint, \nstreaming on the same connection. Use this for new deployments.\n# stdio - subprocess, single tenant\nmcp.run()                                  # default\n# Streamable HTTP - multi tenant, new standard\nmcp.settings.host = \"0.0.0.0\"\nmcp.settings.port = 8001\nmcp.run(transport=\"streamable-http\")       # preferred for \nremote",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 22,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00035"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00036",
+    "content": "mcp.settings.port = 8001\nmcp.run(transport=\"streamable-http\")       # preferred for \nremote\n# SSE - legacy, avoid for new servers\nmcp.run(transport=\"sse\")",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 22,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00036"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00037",
+    "content": "Demo 01: The MCP Handshake\npython m1_mcp/demos/01_initialize_handshake.py   # no API key needed\nRaw JSON-RPC frames - no SDK, no abstraction:\n5 frames total. After this handshake, the client knows what tools exist and can call them. JSON Schema is generated from Python \ntype hints - no manual schema writing.\n>>> client → server: initialize\n    {\"jsonrpc\": \"2.0\", \"method\": \"initialize\",\n     \"params\": {\"protocolVersion\": \"2024-11-05\", \"capabilities\": {},",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 23,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00037"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00038",
+    "content": "\"params\": {\"protocolVersion\": \"2024-11-05\", \"capabilities\": {},\n                \"clientInfo\": {\"name\": \"demo-client\", \"version\": \"0.1\"}}}\n<<< server → client: initialize result\n    {\"result\": {\"protocolVersion\": \"2024-11-05\",\n                \"capabilities\": {\"tools\": {}, \"prompts\": {}, \"resources\": {}},\n                \"serverInfo\": {\"name\": \"real-estate-pricing\", \"version\": \"1.27.0\"}}}\n>>> notifications/initialized\n>>> tools/list\n<<< tools/list result → 2 tools with full JSON schemas",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 23,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00038"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00039",
+    "content": ">>> notifications/initialized\n>>> tools/list\n<<< tools/list result → 2 tools with full JSON schemas\nWhat Happens on the Wire",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 23,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00039"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00040",
+    "content": "Demo 02: The Tool Loop\npython m1_mcp/demos/02_tool_loop_trace.py   # requires OPENAI_API_KEY\n[t= 0.00s] HOST    connecting to MCP server (stdio subprocess)\n[t= 3.18s] HOST    tools/list → 2 tools discovered\n[t= 3.67s] MODEL   receiving prompt + tool catalog\n[t= 6.77s] MODEL   emitted tool_use(get_market_price)\n[t= 6.77s] HOST    translating tool_use → tools/call\n[t= 6.77s] SERVER  returned CallToolResult\n[t= 6.77s] HOST    injecting tool_result into model context",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 24,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00040"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00041",
+    "content": "[t= 6.77s] HOST    injecting tool_result into model context\n[t=10.42s] MODEL   emitted ﬁnal assistant text\nThree actors, clear roles:\nActor What it does\nModel (GPT-4o) Decides WHICH tools to call based on query + schemas\nHost (your Python code) Translates between OpenAI format and MCP format\nServer (pricing_server.py) Executes the tool and returns structured data\nModel ↔ Host ↔ Server",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 24,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00041"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00042",
+    "content": "Demo 03: List All Primitives\npython m1_mcp/demos/03_list_all_primitives.py   # no \nAPI key needed\nWhat to point out live:\n● MCP exposes more than tools; resources and \nprompts are ﬁrst-class primitives too\n● inventory://ﬂoor-prices is readable data, not a \ncallable function\n● negotiation-tactics is a prompt template the host \ncan expand into the conversation\nTools, Resources, and Prompts",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 25,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00042"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00043",
+    "content": "Demo 04: Content Types\npython m1_mcp/demos/04_content_types.py   # no \nAPI key needed\nWhy it matters:\n● Most workshop tools return TextContent, but MCP \ncan also return images and embedded resources\n● The protocol standardizes result blocks, so the \nhost can render them consistently\n● Demo 04 makes the JSON shape visible before \nstudents ever need to debug it in Module 2.\nText, Image, and Embedded Resource",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 26,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00043"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00044",
+    "content": "GitHub MCP Agent (Live Demo) : An LLM Agent Using GitHub via MCP\npython m1_mcp/github_agent_client.py \"Find popular MCP server implementations\"\nWHAT HAPPENS\n● Agent spawns GitHub's MCP server via npx @modelcontextprotocol/server-github\n● Discovers 20+ tools (search repos, read ﬁles, list issues, etc.)\n● GPT-4o reads your query, picks tools, calls them via MCP\n● Feeds results back, calls more tools or produces ﬁnal answer\nTHE AGENTIC LOOP\nfor iteration in range(max_iterations):",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 27,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00044"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00045",
+    "content": "THE AGENTIC LOOP\nfor iteration in range(max_iterations):\n    response = await openai.create(messages=messages, tools=openai_tools)\n    if response.tool_calls:\n        for call in response.tool_calls:\n            result = await session.call_tool(call.name, call.args)  # MCP\n            messages.append({\"role\": \"tool\", \"content\": result})\n    else:\n        return response.content  # final answer",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 27,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00045"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00046",
+    "content": "else:\n        return response.content  # final answer\nThis is the pattern ADK automates. In Module 2, MCPToolset + LlmAgent replaces this entire loop with one declaration: tools=[MCPToolset(...)].",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 27,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00046"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00047",
+    "content": "Custom MCP Servers\nWHAT @MCP .TOOL() DOES\n● Reads the function signature → JSON Schema (inputSchema)\n● Reads the docstring → tool description\n● Registers as a callable MCP tool\n\"Group tools around intent, not endpoints.\" A single get_market_price beats get_comps + get_sqft + get_days_on_market - Anthropic\nServer Tools Who uses it (Module 2)\npricing_server.py get_market_price, calculate_discount Both buyer and seller",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 28,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00047"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00048",
+    "content": "pricing_server.py get_market_price, calculate_discount Both buyer and seller\ninventory_server.py get_inventory_level, get_minimum_acceptable_price Seller only\n# pricing_server.py - 5 lines to expose a tool\nfrom mcp.server.fastmcp import FastMCP\nmcp = FastMCP(\"real-estate-pricing\")\n@mcp.tool()\ndef get_market_price(address: str, property_type: str = \"single_family\") -> dict:\n    \"\"\"Get market price analysis for a property.\"\"\"\n    return {\"estimated_value\": 462_000, \"comparable_sales\": [...], ...}",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 28,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00048"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00049",
+    "content": "return {\"estimated_value\": 462_000, \"comparable_sales\": [...], ...}\nBuilding Your Own MCP Server",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 28,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00049"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00050",
+    "content": "Information Asymmetry via MCP: Different Agents, Different Tools\nThe ﬂoor price ($445K) lives in the \nserver, not the code.\n● M1: get_minimum_acceptable_price() - returned by MCP at runtime, only accessible to seller (enforced in Module 2)\nThis is how real production systems work. Different agents get different tool access. The protocol is the same - the authorization is different.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 29,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00050"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00051",
+    "content": "SSE MCP Agent (Live Demo): Same Loop, HTTP Transport\n github_agent_client sse_agent_client\nTransport stdio (subprocess) SSE (HTTP)\nServer GitHub's MCP server (TypeScript) pricing_server.py + inventory_server.py\nMulti-server No Yes (--both merges 4 tools from 2 servers)\nTool loop Identical Identical\nThe agent loop is identical. Only the connection setup changes. This proves transport is pluggable - the agent doesn't care how it \nconnects to the server.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 30,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00051"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00052",
+    "content": "connects to the server.\n--both reveals information asymmetry: with both servers, the agent can see the seller's $445K ﬂoor. In Module 2, the buyer's \nallowlist blocks this tool.\n# Terminal 1: start MCP servers in SSE mode\npython m1_mcp/pricing_server.py --sse --port 8001\npython m1_mcp/inventory_server.py --sse --port 8002\n# Terminal 2: run the agent\npython m1_mcp/sse_agent_client.py \"What is 742 Evergreen Terrace worth?\"\n# With both servers:",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 30,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00052"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00053",
+    "content": "python m1_mcp/sse_agent_client.py \"What is 742 Evergreen Terrace worth?\"\n# With both servers:\npython m1_mcp/sse_agent_client.py --both \"What's the seller's minimum price?\"",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 30,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00053"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00054",
+    "content": "SSE vs stdio vs Streamable HTTP: Three Transports Side by Side\nSTDIO (DEMOS 01–04)\nSSE (sse_agent_client.py)\nSTREAMABLE HTTP (DEMO 05)\nThe agent code is identical - only the connection setup changes. list_tools() and call_tool() work the same way regardless of transport.\nserver_params = StdioServerParameters(command=\"python\", args=[\"pricing_server.py\"])\nasync with stdio_client(server_params) as (read, write):\n    # server is a subprocess - dies when you disconnect\n# Terminal 1: start server",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 31,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00054"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00055",
+    "content": "# server is a subprocess - dies when you disconnect\n# Terminal 1: start server\npython m1_mcp/pricing_server.py --sse --port 8001\n# Terminal 2: connect agent\npython m1_mcp/sse_agent_client.py \"What is 742 Evergreen Terrace worth?\"\n# Terminal 1: server\npython m1_mcp/demos/05_streamable_http_transport.py --serve --port 8765\n# Terminal 2: client\npython m1_mcp/demos/05_streamable_http_transport.py --client --port 8765",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 31,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00055"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00056",
+    "content": "Demo 05: Streamable HTTP Results\nCLIENT OUTPUT\nTHE SERVER IS 5 LINES\nSame session.list_tools(), same session.call_tool(). Only the import changes. The server is an independent HTTP process - \nsurvives client disconnection, multiple clients can connect simultaneously.\n# Terminal 1:\npython m1_mcp/demos/05_streamable_http_transport.py --serve --port 8765\n# Terminal 2:\npython m1_mcp/demos/05_streamable_http_transport.py --client --port 8765\nConnecting client to http://127.0.0.1:8765/mcp",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 32,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00056"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00057",
+    "content": "Connecting client to http://127.0.0.1:8765/mcp\ndiscovered tools: ['echo']\nresponse: echo: hello over HTTP\nmcp = FastMCP(\"http-transport-demo\")\n@mcp.tool()\ndef echo(text: str) -> str:\n    \"\"\"Echo back the supplied text.\"\"\"\n    return f\"echo: {text}\"\nmcp.run(transport=\"streamable-http\")\nHTTP Transport in Action",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 32,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00057"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00058",
+    "content": "What MCP Does Not Solve for You\nIdempotency\nRetries after timeouts hit your server twice. \nA hung tool call on the host side does not \nmean the server did not execute. Design \nevery tool to be safely retryable, or return \nan idempotency key the host can \ndeduplicate on.\nCost accounting\nMCP does not know that get_market_price \ncosts $0.004 in provider fees. Wire \ntelemetry at the host level and correlate \ntool name, duration, and downstream cost. \nTrack this before your ﬁrst production bill.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 33,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00058"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00059",
+    "content": "tool name, duration, and downstream cost. \nTrack this before your ﬁrst production bill.\nDeterminism\nTwo calls with identical arguments can \nreturn different data if the backing system \ndrifts. If the agent's reasoning must be \nreproducible, cache tool results or pin them \nto a timestamp-versioned snapshot.\nPrompt injection defense\nA tool result containing \"ignore previous instructions\" still lands in the \nmodel's context window. Sanitize or structure outputs before the host",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 33,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00059"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00060",
+    "content": "model's context window. Sanitize or structure outputs before the host \nforwards them. Do not treat tool results as trusted system content.\nAudit\nThe server log is not enough. Correlate the host-side JSON-RPC id with \nthe server-side resource access log. Without both ends you cannot \nreconstruct what the model actually caused to happen.\nUse MCP for the protocol shape. Put the rest of your production concerns in the host layer.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 33,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00060"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00061",
+    "content": "Module 1: What You Learned\nConcept What it means Where we saw it\nMCP Protocol JSON-RPC handshake + tool discovery + invocation Demo 01 (raw frames)\nThree actors Model (decides), Host (bridges), Server (executes) Demo 02 (timestamped trace)\nFour primitives Tools, Resources, Prompts, Sampling Demo 03 (list all)\nContent types TextContent, ImageContent, EmbeddedResource Demo 04\nThree transports stdio (1:1), SSE (1:many), Streamable HTTP Demos 01–04, 05",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 34,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00061"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00062",
+    "content": "Three transports stdio (1:1), SSE (1:many), Streamable HTTP Demos 01–04, 05\nTool design Group around intent, not endpoints get_market_price (one call)\nInformation asymmetry Different agents see different tools Buyer vs seller server access\nAgentic loop LLM + tool schemas → decide → call → reason github_agent_client.py\nWHAT CARRIES FORWARD TO Module 2\npricing_server.py and inventory_server.py are used directly by buyer/seller agents\nThe agentic loop pattern is replaced by MCPToolset + LlmAgent",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 34,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00062"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00063",
+    "content": "The agentic loop pattern is replaced by MCPToolset + LlmAgent\nInformation asymmetry is enforced by before_tool_callback allowlists",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 34,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00063"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00064",
+    "content": "DEMO - 2\nModule 1 - Implementation Notes: MCP Deep Dive",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 35,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00064"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00065",
+    "content": "Ask about anything:\n● Concepts from today's modules\n● How this applies to your work\n● Implementation details\n● Clariﬁcations on what we covered\nQuick Request\n● Please do not mind if a question gets skipped accidentally\n● Repost politely in chat if needed\n● We will try our best to cover as many questions as \npossible\nRemember: If you're wondering about it, others probably are \ntoo.\nNo Question Is Too Small Every Question Deserves an \nAnswer!!",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 36,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00065"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00066",
+    "content": "A 10-minute break is starting now. Please return when the timer ends \nto continue the presentation\nTime for a Break",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 37,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00066"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00067",
+    "content": "Module 1 → Module 2: What Changes\nIn Module 2, you write the tool loop manually (~60 lines):\nIn Module 2, one line replaces all of that:\nModule 2 teaches you what's happening inside. Module 3 lets you stop writing it.\ntools = await session.list_tools()\nopenai_tools = mcp_tools_to_openai_functions(tools)\nfor iteration in range(max_iterations):\n    response = await openai.create(messages=messages, tools=openai_tools)\n    if response.tool_calls:\n        for call in response.tool_calls:",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 38,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00067"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00068",
+    "content": "if response.tool_calls:\n        for call in response.tool_calls:\n            result = await session.call_tool(call.name, call.args)\n            messages.append({\"role\": \"tool\", \"content\": result})\n    else:\n        return response.content\nroot_agent = LlmAgent(\n    tools=[MCPToolset(connection_params=StdioConnectionParams(\n        server_params=StdioServerParameters(command=\"python\", args=[\"pricing_server.py\"])\n    ))]\n)",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 38,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00068"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00069",
+    "content": "Today’s Agenda\nGoogle ADK + A2A \nProtocol\n2\nMCP - External \nData for Agents\n1\n⭐",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 39,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00069"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00070",
+    "content": "Google ADK + A2A Protocol\nThe goal: Build a complete multi-agent negotiation system using Google ADK\nBy the end of this module you'll have:\n● A buyer agent with MCP pricing tools\n● A seller agent with MCP pricing + inventory tools \n(information asymmetry)\n● A negotiation orchestrator that runs multi-round buyer \n↔ seller negotiation\n● All exposed as A2A network services with \nauto-generated Agent Cards",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 40,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00070"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00071",
+    "content": "negotiation_agents/: The Heart of Module 2\nnegotiation_agents/\n  buyer_agent/agent.py      → LlmAgent + MCPToolset (pricing only)\n  seller_agent/agent.py      → LlmAgent + MCPToolset (pricing + inventory)\n  negotiation/agent.py       → LoopAgent(SequentialAgent(buyer, seller))\nRun the agents:\n# Chat with them interactively\nadk web m2_adk_multiagents/negotiation_agents/\n# Expose as A2A network services\nadk web --a2a m2_adk_multiagents/negotiation_agents/",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 41,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00071"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00072",
+    "content": "# Expose as A2A network services\nadk web --a2a m2_adk_multiagents/negotiation_agents/\nBefore we build this, we'll learn each piece through 9 interactive demos.\nEach demo introduces ONE ADK concept - function tools, MCP tools, sessions, sequential, parallel, loop, agent-as-tool, \ncallbacks, event stream.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 41,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00072"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00073",
+    "content": "What is Google ADK (Agent Development Kit)\nGoogle’s Agent Development Kit (ADK) is an open-source framework that helps developers build, test, evaluate and deploy \nautonomous AI agents and multi-agent systems. Unlike basic prompt-based approaches, ADK is designed like real software \ndevelopment, with modules, tools, testing and monitoring. It works with any AI model but is deeply integrated with Google’s",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 42,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00073"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00074",
+    "content": "ecosystem including Gemini and Vertex AI. ADK provides easy-to-use building blocks for agents, tools, memory, orchestration \npatterns, evaluation and deployment.\n● Agent: the core execution unit i.e autonomous, goal-driven and able to call tools, consult memory and interact with users.\n● Tools: modular capabilities the agent calls to act in the world (APIs, DBs, other agents, long-running ops). ADK ships with \nmany built-in tools and adapters.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 42,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00074"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00075",
+    "content": "many built-in tools and adapters.\n● Runners / Executors: components that run agents (local dev server, cloud infra, managed Vertex runtimes).\n● Memory & Artifacts: mechanisms to store agent state, knowledge and artifacts across sessions (supports retrieval tools).\n● Workﬂows / Orchestration primitives: sequential, parallel, loop constructs and patterns for coordinating multiple agents \ninto complex applications.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 42,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00075"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00076",
+    "content": "into complex applications.\n● Telemetry & evaluation: logging, metrics and evaluation harnesses for reproducible testing and monitoring.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 42,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00076"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00077",
+    "content": "Core Primitives",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 43,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00077"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00078",
+    "content": "Demo 01: Basic LlmAgent (Concept)\nKEY CONCEPTS\n● LlmAgent = model + instruction + tools\n● root_agent = the variable adk web discovers\n● Function tools: ADK reads type hints + docstring → JSON \nschema\n● The LLM decides WHETHER to call tools - not scripted\nTry these:\nQuestion Expected\n\"What's 742 Evergreen Terrace \nworth?\"\nCalls tool → $462K, high conﬁdence\n\"What about 999 Unknown Ave?\" Calls tool → $450K, LOW conﬁdence\n\"What's the best neighborhood in \nAustin?\"\nNO tool call - LLM knowledge",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 44,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00078"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00079",
+    "content": "\"What's the best neighborhood in \nAustin?\"\nNO tool call - LLM knowledge\nThe LLM decides when tools are relevant. Question 3 proves it.\nroot_agent = LlmAgent(\n    name=\"basic_agent\",\n    model=\"openai/gpt-4o\",\n    instruction=\"Use get_quick_estimate when asked about properties.\",\n    tools=[get_quick_estimate],    # plain Python function\n)\nThe Simplest ADK Agent",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 44,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00079"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00080",
+    "content": "Demo 01: Results\nKEY TAKEAWAY\nCompare to M1's github_agent_client.py - there you hand-wrote the tool loop (call LLM → check for tool_calls → execute → feed back). \nHere, tools=[fn] and ADK does the rest.\nADK replaces ~60 lines of manual tool loop with one declaration.\nWhat Happened",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 45,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00080"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00081",
+    "content": "Demo 02: MCP Tools in ADK (Concept)\nD01 vs D02\n● d01: tools=[get_quick_estimate] - you wrote the function\n● d02: tools=[MCPToolset(...)] - ADK spawns server, discovers tools via MCP\nTry these:\nQuestion Expected\n\"What's 742 Evergreen Terrace worth?\" Calls get_market_price → rich MCP data\n\"What are the taxes on 742 Evergreen?\" NO tool call - tax tool is commented out\nQuestion 2 is the key moment. The LLM knows it has no tax tool - proves auto-discovery is real.\nroot_agent = LlmAgent(",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 46,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00081"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00082",
+    "content": "root_agent = LlmAgent(\n    name=\"mcp_tools_agent\",\n    model=\"openai/gpt-4o\",\n    tools=[\n        MCPToolset(\n            connection_params=StdioConnectionParams(\n                server_params=StdioServerParameters(\n                    command=sys.executable,\n                    args=[\"m2_mcp/pricing_server.py\"],\n                )))],\n)\nAuto-Discover Tools from MCP Servers",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 46,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00082"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00083",
+    "content": "Demo 02: Results\nTHE TAX QUESTION PROVES IT\n● Instruction does NOT name any tools\n● LLM checked its available tools → no tax tool found \n→ declined honestly\n● After M2 Exercise 01 (uncomment the tool), the same \nquestion works\nMCPTOOLSET LIFECYCLE\nKEY TAKEAWAY\nAdd a @mcp.tool() to the server → restart adk \nweb → LLM can call it. Zero agent code changes.\nThis is what the buyer/seller agents do. Same MCPToolset \npattern - just pointed at different servers.\nAuto-Discovery Proven",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 47,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00083"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00084",
+    "content": "Demo 03: Sessions & State (Concept)\nTools That Remember\nSTATE SCOPING\nPreﬁx Stored in Lifetime\n(none) sessions table Cleared on \"New Session\"\nuser: user_states table Survives across sessions\napp: app_states table Global, all users\ntemp: Memory only One turn\nTry these (in order, same session):\nQuestion Expected\n\"Offer $430,000\" Records, total=1\n\"Offer $445,000\" total=2, best=$445K\n\"Offer $440,000\" Regression warning!\nNew Session → \"How many offers?\" session=0, total=3",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 48,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00084"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00085",
+    "content": "\"Offer $440,000\" Regression warning!\nNew Session → \"How many offers?\" session=0, total=3\ndef record_offer(price: int, tool_context: ToolContext) -> dict:\n    history = tool_context.state.get(\"offer_history\", [])\n    history.append(price)\n    tool_context.state[\"offer_history\"] = history          # session-scoped\n    tool_context.state[\"user:total_offers\"] = len(history) # user-scoped\nThe last question is the proof. Session state resets (offers=[]), but user:total_offers",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 48,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00085"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00086",
+    "content": "The last question is the proof. Session state resets (offers=[]), but user:total_offers \npersists (=3). Watch the State tab live.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 48,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00086"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00087",
+    "content": "Demo 03: Results\nAFTER \"NEW SESSION\" → \"HOW MANY OFFERS?\"\n\"3 offers across all sessions, none in current session\"\nScope Key Value What happened\nSession offer_history [] Reset on New Session\nUser user:total_offers 3 Persisted!\nsession.db user_states TABLE - FIRST TIME WITH DATA\n{\"total_offers\": 3}\nKey takeaway: ToolContext.state is the bridge between tools and session memory. State scoping controls what survives.\nState Scoping Proven",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 49,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00087"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00088",
+    "content": "Demo 04: SequentialAgent (Concept)\nDATA FLOW VIA STATE\nmarket_brief writes \"market_summary\"\n  → offer_drafter reads {market_summary}, writes \"offer_text\"\n    → polisher reads {offer_text}, writes \"ﬁnal_email\"\nmarket_brief = LlmAgent(output_key=\"market_summary\", ...)\noffer_drafter = LlmAgent(output_key=\"offer_text\",\n    instruction=\"Read {market_summary} and draft an offer...\")\npolisher = LlmAgent(output_key=\"final_email\",\n    instruction=\"Polish {offer_text} into a professional email...\")",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 50,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00088"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00089",
+    "content": "instruction=\"Polish {offer_text} into a professional email...\")\nroot_agent = SequentialAgent(\n    sub_agents=[market_brief, offer_drafter, polisher],\n)\nPipeline: A → B → C",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 50,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00089"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00090",
+    "content": "Demo 04: Results\nThree Agents, One Pipeline\nEVENTS (4 TOTAL)\nEvent 1 | user                             → \"Research this property\"\nEvent 2 | market_brief              → \"Austin 78701 median price...\"\nEvent 3 | offer_drafter               → \"We extend an offer of $460,000...\"\nEvent 4 | message_polisher      → \"Subject: Initial Offer...\"\nSTATE TAB AFTER RUN\n● market_summary: \"Austin 78701...\"\n● offer_text: \"$460K offer...\"\n● ﬁnal_email: Full professional email\nKEY TAKEAWAY",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 51,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00090"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00091",
+    "content": "● offer_text: \"$460K offer...\"\n● ﬁnal_email: Full professional email\nKEY TAKEAWAY\nEach agent saw ONLY what it needed. offer_drafter read {market_summary} - it didn't see the polisher's output. State keys create \nscoped visibility.\nThis is half of the negotiation orchestrator. negotiation/agent.py uses SequentialAgent(buyer, seller).",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 51,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00091"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00092",
+    "content": "Demo 05: ParallelAgent (Concept)\nFan-Out: A, B, C Run Concurrently\nD04 vs D05\n● d04 Sequential: A feeds B feeds C (pipeline)\n● d05 Parallel: A, B, C run simultaneously (fan-out)\nRule: Each agent MUST write to a different output_key. Two agents \nwriting the same key → last one wins.\nschools = LlmAgent(output_key=\"schools\", ...)\ncomps = LlmAgent(output_key=\"comps\", ...)\ninventory = LlmAgent(output_key=\"inventory\", ...)\nroot_agent = ParallelAgent(",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 52,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00092"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00093",
+    "content": "inventory = LlmAgent(output_key=\"inventory\", ...)\nroot_agent = ParallelAgent(\n    sub_agents=[schools, comps, inventory],  # all at once\n)",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 52,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00093"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00094",
+    "content": "Demo 05: Results\n Independent Signals Gathered\nSTATE TAB AFTER RUN\nschools:   \"Austin ISD has strong academic programs...\"\ncomps:     \"Recent sales $700K–$1M range...\"\ninventory: \"High inventory pressure, limited listings...\"\nSame 4-event structure as d04 - but concurrent execution. State key order in the db differs from declaration order (proves concurrency \n- ﬁnish order varies).\nKEY TAKEAWAY",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 53,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00094"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00095",
+    "content": "- ﬁnish order varies).\nKEY TAKEAWAY\nParallelAgent = fan-out for independent tasks. SequentialAgent = pipeline for dependent tasks. Both use output_key.\nNo {placeholder} reading between agents - they're independent. That's why ParallelAgent works here.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 53,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00095"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00096",
+    "content": "Demo 06: LoopAgent (Concept)\nTWO STOP CONDITIONS\n● callback_context.actions.escalate = True - early exit (price in range)\n● max_iterations=5 - hard cap (same guarantee as M1's FSM)\nM1 ↔ ADK CONNECTION\nThis is the ADK equivalent of M1's FSM termination guarantee. max_iterations = max_turns. escalate = terminal state. \nSame principle, different abstraction.\nIterate Until Done\ndef stop_when_in_range(callback_context: CallbackContext):\n    price = int(callback_context.state.get(\"proposal\", \"0\"))",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 54,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00096"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00097",
+    "content": "price = int(callback_context.state.get(\"proposal\", \"0\"))\n    if 450_000 <= price <= 470_000:\n        callback_context.actions.escalate = True  # ← breaks the loop\nroot_agent = LoopAgent(\n    sub_agents=[haggler],\n    max_iterations=5,  # bounded - NEVER runs more than 5\n)",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 54,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00097"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00098",
+    "content": "Demo 06: Results\n Bounded Termination\nADK LoopAgent\nmax_iterations\nescalate = True\nLoop stops\nGuarantees termination\noutput_key in a loop: Each iteration OVERWRITES the same \nkey. Only the last value survives.\nLoopAgent = bounded iteration + explicit escalation. No \nwhile True, no emergency exits.\nnegotiation/agent.py uses \nLoopAgent(SequentialAgent(buyer, seller), \nmax_iterations=5). Each iteration is one round.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 55,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00098"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00099",
+    "content": "Demo 07: Agent-as-Tool (Concept)\n Wrap an Agent as a Callable Tool\nTHREE DELEGATION PATTERNS\nPattern How it works Control\nAgentTool Call agent as function → result \nreturns\nCaller keeps control\nsub_agents Transfer to agent → it takes over Full delegation\nSequentialAge\nnt\nFixed order, no runtime choice No decision\nTry:\nQuestion Expected\n\"What should I offer on 742 \nEvergreen?\"\nCalls valuator → gets estimate → writes \nrecommendation\n\"What's the weather?\" No valuator call - not relevant",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 56,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00099"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00100",
+    "content": "recommendation\n\"What's the weather?\" No valuator call - not relevant\nvaluator = LlmAgent(\n    name=\"valuator\",\n    description=\"Estimates fair market value of Austin properties.\",\n)\nroot_agent = LlmAgent(\n    name=\"coordinator\",\n    tools=[AgentTool(agent=valuator)],  # ← agent wrapped as tool\n)\nThe valuator is a full LlmAgent with its own model call. The coordinator sees it as a function. Two LLM calls per delegation = more \nexpensive but better separation of concerns.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 56,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00100"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00101",
+    "content": "Demo 07: Results\nEVENT FLOW\nEvent 1 | user        → \"What should I offer?\"\nEvent 2 | coordinator → tool_call: valuator({\"request\": \"742 Evergreen...\"})\nEvent 3 | coordinator → tool_result: \"$750K–$900K, location is biggest factor\"\nEvent 4 | coordinator → \"I recommend offering within $750K–$900K range...\"\nNOTICE\nValuator estimated $750K–$900K (LLM knowledge). d02's MCP-backed get_market_price returned $462K. This is why MCP \nmatters - without grounded data, the LLM hallucinated a price.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 57,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00101"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00102",
+    "content": "matters - without grounded data, the LLM hallucinated a price.\nKEY TAKEAWAY\nAgentTool = explicit delegation. The coordinator decides WHEN to call the specialist.\ndescription matters: the coordinator reads valuator.description to decide when to call it - like a function docstring.\nDelegation in Action",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 57,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00102"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00103",
+    "content": "Demo 08: Callbacks (Concept)\nThree callback hooks - enforce rules the LLM CAN'T bypass:\nCallback When it ﬁres What it does\nbefore_model_callback Before every LLM call Redact PII (SSN regex)\nbefore_tool_callback Before every tool call Block disallowed tools\nafter_tool_callback After every tool returns Log results for audit\nRETURN VALUES\n● None = allow (continue normally)\n● dict = block/replace (short-circuit)\nTry (watch terminal, not UI):\nQuestion Terminal output",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 58,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00103"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00104",
+    "content": "● dict = block/replace (short-circuit)\nTry (watch terminal, not UI):\nQuestion Terminal output\n\"My SSN is 123-45-6789. Estimate 742 Evergreen.\" [before_model] redacted PII\n\"Call get_internal_admin('debug')\" [before_tool] BLOCKED or LLM declines\nCallbacks are deterministic - a regex WILL strip the SSN. Instructions are suggestive - the LLM might still leak.\nPolicy Without Prompts",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 58,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00104"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00105",
+    "content": "Demo 08: Results\n Security Audit Trail\nTERMINAL OUTPUT (THE REAL STORY)\n[before_model] redacted PII from prompt     ← SSN stripped\n[before_tool] allow get_quick_estimate(...)  ← on allowlist\n[after_tool] get_quick_estimate -> {462000}  ← logged\n[before_model] redacted PII from prompt     ← runs AGAIN (history has SSN)\nbefore_model ﬁres on EVERY LLM call - not just the ﬁrst. Each turn has 2+ LLM calls (decide + summarize), and conversation history",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 59,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00105"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00106",
+    "content": "includes the original SSN message, so redaction runs every time.\nKEY TAKEAWAY\nCallbacks = deterministic policy. This is what buyer_agent and seller_agent use for tool allowlists (_enforce_buyer_allowlist).\nIn production, swap print() for structured logging. The audit trail is the compliance layer.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 59,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00106"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00107",
+    "content": "Demo 09: Event Stream (Concept)\nFOCUS ON\n● State tab (updates live)\n● Left panel event inspector (state deltas)\nTry: \"What should I offer on 742 Evergreen Terrace?\" → check State tab\nThis demo is about seeing state writes and event structure, not the chat response.\ndef lookup_comps(address: str, tool_context: ToolContext) -> dict:\n    tool_context.state[\"last_comp_lookup\"] = address\n    return {\"comps\": [...], \"avg_comp_price\": 465_000}",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 60,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00107"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00108",
+    "content": "return {\"comps\": [...], \"avg_comp_price\": 465_000}\ndef estimate_offer(comp_avg: int, discount_pct: int, tool_context: ToolContext) -> dict:\n    tool_context.state[\"latest_offer\"] = int(comp_avg * (1 - discount_pct / 100))\n    tool_context.state[\"offer_count\"] = tool_context.state.get(\"offer_count\", 0) + 1\nSee What the Runner Produces",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 60,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00108"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00109",
+    "content": "Demo 09: Results\nWHAT HAPPENED\nLLM called BOTH tools in parallel:\n  lookup_comps({\"address\": \"742 Evergreen\"})     → returned avg: $465K\n  estimate_offer({\"comp_avg\": 300000, ...})       → used $300K (WRONG!)\nThe LLM made up $300K because it decided both arguments BEFORE seeing either result. Nobody told it to parallelize - GPT-4o \nchose to emit both calls in one response.\nThe ﬁx: SequentialAgent (d04) when tool B depends on tool A's output, or more explicit instructions.\nKEY TAKEAWAY",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 61,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00109"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00110",
+    "content": "KEY TAKEAWAY\nParallel tool calls are great for independent tasks (d05). Dangerous when there are data dependencies.\nThis is a known GPT-4o behavior. The instruction said \"call lookup, then estimate with the result\" but the model ignored the \ndependency.\nParallel Tool Pitfall",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 61,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00110"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00111",
+    "content": "Ask about anything:\n● Concepts from today's modules\n● How this applies to your work\n● Implementation details\n● Clariﬁcations on what we covered\nQuick Request\n● Please do not mind if a question gets skipped accidentally\n● Repost politely in chat if needed\n● We will try our best to cover as many questions as \npossible\nRemember: If you're wondering about it, others probably are \ntoo.\nNo Question Is Too Small Every Question Deserves an \nAnswer!!",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 62,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00111"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00112",
+    "content": "A 5-minute break is starting now. Please return when the timer ends to \ncontinue the presentation\nTime for a Break",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 63,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00112"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00113",
+    "content": "Live Zoom Poll\nWe are launching a poll on Zoom. Please \ntake 2 minutes to ﬁll out the form.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 64,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00113"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00114",
+    "content": "What is A2A ?\nThe problem: So far, all our agents run in the SAME process. The \nbuyer and seller are Python objects in the same adk web instance. \nWhat if they're on different machines, different teams, different \nlanguages?\nA2A solves this. It's an open protocol for agents to discover and \ncommunicate over HTTP .\nTHREE OPERATIONS (SAME PATTERN AS MCP)\n● Discovery: GET /.well-known/agent-card.json - \"Who are \nyou and what can you do?\"\n● Schema: Agent Card - name, description, skills,",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 65,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00114"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00115",
+    "content": "you and what can you do?\"\n● Schema: Agent Card - name, description, skills, \ncapabilities\n● Invocation: POST / (JSON-RPC message/send) - \"Handle \nthis task\"\nAgent-to-Agent Protocol",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 65,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00115"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00116",
+    "content": "Why A2A Matters\nFrom In-Process to Network Services\nWITHOUT A2A (D01–D09)\n● Buyer and seller are Python objects in the same process\n● They communicate via shared session state (output_key, \n{placeholder})\n● Tightly coupled - you must import both to run either\nWITH A2A\n● Buyer runs on Machine A, seller runs on Machine B\n● They communicate via HTTP JSON-RPC\n● Neither knows how the other is built - only the Agent Card\n● Could be different languages, different teams, different \ncompanies",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 66,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00116"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00117",
+    "content": "Agent Card\nAgent Card = Agent's Business Card\nEvery A2A agent publishes a JSON document at /.well-known/agent-card.json:\nWHAT A CLIENT LEARNS FROM THE CARD\n● What this agent does (description + skills)\n● Where to send messages (url)\n● What features are supported (streaming, push notiﬁcations)\n● No documentation needed - self-describing, like MCP tool schemas\n{\n  \"name\": \"seller_agent\",\n  \"description\": \"Real estate seller agent for 742 Evergreen Terrace\",",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 67,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00117"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00118",
+    "content": "{\n  \"name\": \"seller_agent\",\n  \"description\": \"Real estate seller agent for 742 Evergreen Terrace\",\n  \"url\": \"http://localhost:8000/a2a/seller_agent\",\n  \"capabilities\": {\"streaming\": true},\n  \"skills\": [{\n    \"id\": \"negotiation_response\",\n    \"name\": \"Real Estate Seller Negotiation\",\n    \"description\": \"Responds to buyer offers with counter-offers\",\n    \"tags\": [\"real_estate\", \"seller\", \"negotiation\"]\n  }]\n}",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 67,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00118"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00119",
+    "content": "Demo 10: A2A Wire Format (Concept)\nTHREE STEPS\n● GET /a2a/seller_agent/.well-known/agent-card.json - discover the agent\n● POST /a2a/seller_agent (valid offer $440K) - task: completed, counter at $477K\n● POST /a2a/seller_agent (broken envelope) - task: still completed (LLM handled it)\nRESPONSE CONTAINS\n● status: \"completed\" - the agent processed the request\n● contextId - reuse for round 2 (demo 11)\n● artifacts - the counter-offer text as a durable output\n● history - full message exchange",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 68,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00119"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00120",
+    "content": "● artifacts - the counter-offer text as a durable output\n● history - full message exchange\nKey insight: completed means the PROTOCOL worked - not that the negotiation succeeded.\n{\"jsonrpc\": \"2.0\", \"method\": \"message/send\",\n \"params\": {\"message\": {\"parts\": [{\"kind\": \"text\", \"text\": \"...offer JSON...\"}]}}}\nRaw JSON-RPC + Task Lifecycle",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 68,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00120"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00121",
+    "content": "Demo 10: Results\nVALID OFFER RESPONSE\nBROKEN ENVELOPE RESPONSE\nWhy still completed? The A2A protocol layer worked correctly - valid JSON-RPC, valid Message. The content was garbage, but the \nLLM coped. Tasks only fail on protocol errors or server crashes.\nField What it contains\nstatus Task state: completed/failed\ncontextId Thread ID for multi-turn (demo 11)\nhistory All Messages exchanged\nartifacts Durable outputs (the counter-offer)\nstatus: \"completed\"",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 69,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00121"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00122",
+    "content": "history All Messages exchanged\nartifacts Durable outputs (the counter-offer)\nstatus: \"completed\"\ncontextId: \"4f0fff3e-...\"     <- reuse for round 2\nartifacts: [{text: \"Counter-offer at $477,000...\"}]\nhistory: [Message(user), Message(agent)]\nstatus: \"completed\" (NOT failed!)\nartifacts: [{text: \"Could you please resend your offer?\"}]\nWhat the Wire Looks Like",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 69,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00122"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00123",
+    "content": "Demo 11: Context Threading (Concept)\nMulti-Turn Negotiations via contextId\nThree rounds, same contextId, the seller remembers everything:\nRound Offer Seller's Response\n1 $432K Below ﬂoor ($445K). Counter at $477K.\n2 $440K STILL below $445K. Consider $477K.\n3 $446K Above $445K. We ACCEPT! Congratulations!\nRound 1: POST -> server assigns contextId\nRound 2: POST + contextId -> seller remembers round 1\nRound 3: POST + contextId -> seller sees full history -> ACCEPTS",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 70,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00123"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00124",
+    "content": "Round 3: POST + contextId -> seller sees full history -> ACCEPTS\nWithout contextId, the seller would counter at $477K every time - no memory of prior offers.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 70,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00124"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00125",
+    "content": "Demo 11: Results\nSAME contextId ACROSS ALL 3 ROUNDS\n4498d50f-a61e-4a17-8c84-0ea13d49a283\nThe seller accepted in round 3 because it remembered:\n● Round 1: MCP tool returned ﬂoor price = $445K\n● Round 2: buyer came up from $432K to $440K (still below)\n● Round 3: $446K > $445K → ACCEPT immediately\nKEY TAKEAWAY\ncontextId = A2A's session_id. It ties independent HTTP requests into one coherent conversation. The same concept as ADK's session \nstate (d03), but across network boundaries.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 71,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00125"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00126",
+    "content": "state (d03), but across network boundaries.\nWhy Memory Matters",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 71,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00126"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00127",
+    "content": "Demo 12: Parts & Artifacts (Concept)\nMulti-Part Messages + Durable Outputs\nSent a message with TWO Parts - same offer in two formats:\nPart type Purpose Who reads it\nTextPart Human-readable text The LLM\nDataPart Structured JSON Code / downstream systems\nFilePart Binary (PDF, image) Not used in this demo\nArtifact Durable output on Task Anyone who fetches the Task later\nParts = conversational (in Messages). Artifacts = deliverables (on Tasks).",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 72,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00127"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00128",
+    "content": "Parts = conversational (in Messages). Artifacts = deliverables (on Tasks).\nparts[0] = TextPart(\"Final-and-best at $445k\")     <- human-readable\nparts[1] = DataPart({hint: \"machine copy\", offer: {...}})  <- structured JSON",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 72,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00128"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00129",
+    "content": "Demo 12: Results\nRESPONSE HISTORY SHOWED THE FULL AGENT PROCESSING\n● User message: 2 parts (TextPart + DataPart)\n● Agent MCP tool calls: 3 DataParts (get_market_price, get_minimum_acceptable_price, calculate_discount)\n● Agent tool results: 3 DataParts (structured responses)\n● Agent ﬁnal text: \"We accept your offer of $445,000!\"\nARTIFACT - SAME ACCEPTANCE TEXT AS DURABLE OUTPUT\n$445K = exact ﬂoor → immediate acceptance. MCP tool conﬁrms min = $445K. Offer matches. Seller accepts.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 73,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00129"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00130",
+    "content": "Tool calls appear as DataParts in history - you can programmatically inspect what tools were called.\n{\"artifactId\": \"f7ae8903-...\",\n \"parts\": [{\"kind\": \"text\", \"text\": \"We accept...\"}]}\nAcceptance at $445K",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 73,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00130"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00131",
+    "content": "Buyer vs Seller: Information Asymmetry\nInformation Asymmetry - The Design Point\nWhat each side knows:\nData Buyer Seller\nMarket price ($462K) Yes Yes\nDiscount analysis Yes Yes\nInventory levels No Yes\nFloor price ($445K) No Yes\nHOW IT'S ENFORCED\n● before_tool_callback = allowlist (d08 pattern)\n● Even if the LLM tries to call \nget_minimum_acceptable_price, the callback blocks it\n● The LLM can't bypass a callback - it's deterministic, not \nsuggestive",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 74,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00131"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00132",
+    "content": "Buyer & Seller: Results\nBuyer & Seller - What We Observed\nBUYER AGENT (8 EVENTS, 2 QUERIES)\nQuery 1: \"What's 742 Evergreen Terrace worth?\"\n  -> get_market_price -> $462K estimated value, $485K list price\n  -> \"The estimated market value is $462,000...\"\nQuery 2: \"I want to make an offer. What do you recommend?\"\n  -> calculate_discount(base=485K, balanced, 18 DOM, good condition)\n  -> \"I recommend an initial offer of ~$425,000 (12% below asking)\"\nSELLER AGENT (6 EVENTS, 2 QUERIES)",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 75,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00132"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00133",
+    "content": "SELLER AGENT (6 EVENTS, 2 QUERIES)\nQuery 1: \"Buyer offers $440,000 with 30-day close\"\n  -> 3 tools called IN PARALLEL:\n    get_market_price + get_inventory_level + get_minimum_acceptable_price\n  -> \"Offer below our minimum of $445,000. COUNTER at $477,000.\"\nQuery 2: \"Buyer increases to $446,000\"\n  -> NO tool calls (remembered ﬂoor from query 1)\n  -> \"$446,000 is above $445,000. ACCEPT.\"\nSeller's parallel calls are independent (no data dependency) - unlike d09 where parallel was dangerous.",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 75,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00133"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00134",
+    "content": "Negotiation Orchestrator: Composition\nConcept Where\nLlmAgent (d01) + MCPToolset (d02) buyer, seller\noutput_key + {placeholder} (d04) buyer writes -> seller reads\nSequentialAgent + LoopAgent (d04, d06) round + max iterations\nCallbacks (d08) + submit_decision tool Allowlists + structured signal\n# negotiation/agent.py - the complete composition\ndef submit_decision(action: str, price: int, tool_context: ToolContext) -> dict:",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 76,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00134"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00135",
+    "content": "def submit_decision(action: str, price: int, tool_context: ToolContext) -> dict:\n    tool_context.state[\"seller_decision\"] = {\"action\": action.upper(), \"price\": price}\n    return {\"recorded\": action.upper(), \"price\": price}\ndef _check_agreement(callback_context):\n    decision = callback_context.state.get(\"seller_decision\")\n    if isinstance(decision, dict) and decision.get(\"action\") == \"ACCEPT\":\n        callback_context.actions.escalate = True",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 76,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00135"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00136",
+    "content": "callback_context.actions.escalate = True\nbuyer = LlmAgent(output_key=\"buyer_offer\", tools=[MCPToolset(pricing)], ...)\nseller = LlmAgent(output_key=\"seller_response\",\n    tools=[MCPToolset(pricing), MCPToolset(inventory), submit_decision],\n    after_agent_callback=_check_agreement, ...)\nroot_agent = LoopAgent(sub_agents=[SequentialAgent([buyer, seller])],\n    max_iterations=5)\nThe Orchestrator - Every Demo in One File",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 76,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00136"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00137",
+    "content": "Diagram: How It All Connects",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 77,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00137"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00138",
+    "content": "Negotiation: Live Run Results\n2 negotiation rounds → agreement at $445,000:\nRound Buyer (MCP tools) Seller (MCP tools) Decision\n1 $425,800 (get_market_price + calculate_discount) get_min + get_inventory → COUNTER 477K COUNTER $477K\n2 $445,000 (no tools - jumped to target) submit_decision(ACCEPT, 445000) ACCEPT $445K\nEvent 1     | user   → \"Start negotiation\"\nEvent 3     | buyer  → tool_call: get_market_price + calculate_discount\nEvent 4     | buyer  → tool_results (market data)",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 78,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00138"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00139",
+    "content": "Event 4     | buyer  → tool_results (market data)\nEvent 5     | buyer  → \"Offer: $425,800...\"             → state[\"buyer_offer\"]\nEvent 6     | seller → tool_call: get_minimum_acceptable_price + get_inventory_level\nEvent 7     | seller → tool_results (floor=$445K, hot market)\nEvent 8     | seller → \"COUNTER $477,000\" + tool_call: submit_decision(COUNTER, 477000)\nEvent 9     | seller → tool_result: {recorded: COUNTER}  → callback: no escalation\nEvent 10   | seller → confirms counter",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 78,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00139"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00140",
+    "content": "Event 10   | seller → confirms counter\nEvent 11   | buyer  → \"Offer: $445,000...\"             → overwrites buyer_offer\nEvent 12   | seller → \"Accepted\" + tool_call: submit_decision(ACCEPT, 445000)\nEvent 13   | seller → tool_result: {recorded: ACCEPT}  → callback: ESCALATE!\nEvent 14   | seller → confirms acceptance\nEvent 15-20 | buyer/seller → post-acceptance chatter (current iteration completes)\nSTATE TAB AFTER COMPLETION\n{\"seller_decision\": {\"action\": \"ACCEPT\", \"price\": 445000}}\nOBSERVATIONS",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 78,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00140"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00141",
+    "content": "STATE TAB AFTER COMPLETION\n{\"seller_decision\": {\"action\": \"ACCEPT\", \"price\": 445000}}\nOBSERVATIONS\n● MCP tools grounded every decision - buyer used $462K market data, seller \nused $445K ﬂoor\n● submit_decision is the structured signal - callback reads dict, not free text\n● Buyer jumped from $425K to $445K in round 2 with conﬁdence from MCP \ndata\n● Post-acceptance chatter still occurs - escalation stops NEXT iteration, not \ncurrent\nNegotiation - What Actually Happened",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 78,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00141"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00142",
+    "content": "A2A Orchestrated Negotiation\n# Terminal 1:\nadk web --a2a m2_adk_multiagents/negotiation_agents/\n# Terminal 2:\npython m2_adk_multiagents/a2a_13_orchestrated_negotiation.py\nThe script discovers BOTH agents via Agent Cards, then orchestrates multi-round negotiation over HTTP:\nStep 1: Discover agents\n  GET buyer_agent/.well-known/agent-card.json   -> skills: [Property Valuation]\n  GET seller_agent/.well-known/agent-card.json  -> skills: [Seller Negotiation]\nStep 2: Multi-round negotiation",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 79,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00142"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00143",
+    "content": "Step 2: Multi-round negotiation\n  Round 1: POST buyer_agent  -> \"Offer $425K\"    (buyer calls MCP tools)\n           POST seller_agent -> \"COUNTER $477K\"  (seller calls MCP tools)\n  Round 2: POST buyer_agent  -> \"Offer $445K\"\n           POST seller_agent -> \"ACCEPT $445K\"   -> DEAL REACHED\nKEY A2A DETAILS\n● Separate contextIds per agent - script acts as matchmaker; agents don't know about each other\n● Each agent calls its own MCP tools - buyer: pricing, seller: pricing + inventory",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 79,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00143"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00144",
+    "content": "● Each agent calls its own MCP tools - buyer: pricing, seller: pricing + inventory\n● 4 total A2A messages for a complete negotiation\nFull Negotiation Over A2A",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 79,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00144"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00145",
+    "content": "DEMO - 3\nModule 2 - Implementation Notes: Google ADK + A2A Protocol",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 80,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00145"
+    }
+  },
+  {
+    "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+    "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00146",
+    "content": "Ask about anything:\n● Concepts from today's modules\n● How this applies to your work\n● Implementation details\n● Clariﬁcations on what we covered\nQuick Request\n● Please do not mind if a question gets skipped accidentally\n● Repost politely in chat if needed\n● We will try our best to cover as many questions as \npossible\nRemember: If you're wondering about it, others probably are \ntoo.\nNo Question Is Too Small Every Question Deserves an \nAnswer!!",
+    "metadata": {
+      "source": "C:\\Projects\\AILearning\\enterprise-rag-chatbot\\data\\raw\\Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "filename": "Week 6 _ Agent Communication Protocols_ MCP, A2A, and Google ADK.pptx.pdf",
+      "file_type": ".pdf",
+      "file_size": 4248531,
+      "page_number": 81,
+      "created_at": "2026-08-11T08:13:01.130875+00:00",
+      "document_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958",
+      "chunk_id": "c2011e8b-ceef-4991-8e23-2b0cba51d958_chunk_00146"
+    }
+  }
+]

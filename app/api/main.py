@@ -1,8 +1,10 @@
 from fastapi import FastAPI
-from app.config import  get_settings
-from app.core.logging_config import setup_logging
+
 from app.api.healthapi import router as health_router
+from app.api.ingestionapi import router as ingestion_router
 from app.api.itemsapi import router as items_router
+from app.config import get_settings
+from app.core.logging_config import setup_logging
 
 settings = get_settings()
 logger = setup_logging(settings.log_level)
@@ -10,6 +12,7 @@ logger = setup_logging(settings.log_level)
 app = FastAPI(title=settings.app_name)
 app.include_router(health_router)
 app.include_router(items_router, prefix="/api")
+app.include_router(ingestion_router, prefix="/api")
 
 
 @app.on_event("startup")
