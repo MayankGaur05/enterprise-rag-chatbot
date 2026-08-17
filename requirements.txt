@@ -12,3 +12,5 @@ pypdf
 docx2txt
 python-multipart
 tiktoken
+openai
+chromadb

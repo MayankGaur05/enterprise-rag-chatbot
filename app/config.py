@@ -31,6 +31,18 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
+
+    embedding_provider: str = Field("openai", env="EMBEDDING_PROVIDER")
+    embedding_model: str = Field("text-embedding-3-small", env="EMBEDDING_MODEL")
+    embedding_batch_size: int = Field(100, env="EMBEDDING_BATCH_SIZE")
+    embedding_max_retries: int = Field(3, env="EMBEDDING_MAX_RETRIES")
+    vector_collection_name: str = Field("enterprise_docs", env="VECTOR_COLLECTION_NAME")
+    retrieval_default_top_k: int = Field(5, env="RETRIEVAL_DEFAULT_TOP_K")
+    retrieval_max_top_k: int = Field(20, env="RETRIEVAL_MAX_TOP_K")
+    reindex_mode: str = Field("replace", env="REINDEX_MODE") 
+    
+
+
 @lru_cache
 def get_settings() -> Settings:
     return Settings()

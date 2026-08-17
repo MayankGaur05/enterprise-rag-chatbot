@@ -1,4 +1,5 @@
 from pathlib import Path
+from typing import Annotated
 
 from fastapi import APIRouter, File, HTTPException, UploadFile
 
@@ -14,7 +15,7 @@ settings = get_settings()
 pipeline = IngestionPipeline()
 
 @router.post("/upload", summary="Upload Documents for Ingestion", tags=["Ingestion"])
-async def upload_documents(file: UploadFile = File(...), preset: str = "small"):
+async def upload_documents(file: Annotated[UploadFile, File(...)], preset: str = "small"):
     """
     Endpoint to upload documents for ingestion.
 
