@@ -1,0 +1,28 @@
+services:
+  backend:
+    build: 
+     context: .
+     dockerfile: docker/backend.dockerfile
+    container_name: enterprise-rag-backend
+    env_file: .env
+    environment:
+       - API_HOST=0.0.0.0
+       - API_PORT=8000
+       - LOG_LEVEL=INFO
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/frontend.dockerfile
+    container_name: enterprise-rag-frontend
+    env_file: .env
+    environment:
+      - BACKEND_BASE_URL=http://backend:8000
+      - LOG_LEVEL=INFO
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
+    restart: unless-stopped
